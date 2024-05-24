@@ -10,9 +10,9 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground-rgb: 13, 35, 43;
+    --background-start-rgb: 210, 219, 221;
+    --background-end-rgb: 184, 202, 209;
   }
 }
 
@@ -30,4 +30,11 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.weatherCard {
+  padding: 12px;
+  border: 1px solid rgba(0,0,0,.1);
+  margin: 4px;
+  border-radius: 4px;
 }
